@@ -1,0 +1,35 @@
+mavenList: # Plural-noun tags that contains isomorphic children with singular-noun names
+  keywords: >
+    dependencies  repositories plugins      pluginRepositories exclusions resources
+    testResources profiles     executions   reportPlugins      reportSets extensions
+    goals         items        tasks        reports            links      licenses
+    developers    roles        contributors includes           excludes   notifiers
+    modules
+  highlight_link: Repeat
+
+mavenGroup: # Singular-noun tags that are usually items in a list
+  keywords: >
+    dependency   repository plugin    pluginRepository exclusion   resource
+    testResource profile    execution reportPlugin     property    parent
+    extension    reportSet  license   developer        contributor notifier
+  highlight_link: Structure
+
+mavenSet: # Tags that usually contain non-isomorphic children
+  keywords: >
+    properties configuration snapshots releases reporting filters activation 
+  highlight_link: Statement
+
+mavenManagement:
+  keywords: >
+    pluginManagement dependencyManagement issueManagement ciManagement distributionManagement
+  highlight_link: StorageClass
+
+mavenSpecial:
+  keywords: >
+    build 
+  highlight_link: Type
+
+mavenOther:
+  keywords: >
+    modelVersion
+  highlight_link: Include

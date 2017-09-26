@@ -43,7 +43,7 @@ $ node generate-syntax-file.js
 
 # More information
 
-Story behind the project: [Maven Syntax Highlighting Plugin for Vim](http://nlknguyen.com/2016/02/03/maven-syntax-highlighting-plugin-for-vim)
+Story behind the project: [Maven Syntax Highlighting Plugin for Vim](https://nlknguyen.wordpress.com/2016/02/03/maven-syntax-highlighting-plugin-for-vim/)
 
 Suggestions/Wishes/Questions/Comments are welcome via [Github issues](https://github.com/NLKNguyen/vim-maven-syntax/issues) or via the blog above.
 
